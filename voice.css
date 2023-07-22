@@ -1,0 +1,30 @@
+#text-to-speech-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#text-to-speech-form label {
+    margin-bottom: 10px;
+}
+
+#text-to-speech-form textarea {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#text-to-speech-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#text-to-speech-form button:hover {
+    background-color: #3e8e41;
+}
